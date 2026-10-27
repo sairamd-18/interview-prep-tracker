@@ -1,6 +1,6 @@
 """
 Profile router: View and update student goals and study settings.
-hii
+
 """
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel
