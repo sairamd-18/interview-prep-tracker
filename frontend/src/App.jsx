@@ -48,6 +48,7 @@ function AppContent() {
           {currentPage === 'coding' && <CodingPracticePage />}
           {currentPage === 'interview' && <MockInterviewPage />}
           
+          {currentPage === 'resume' && <ResumeAnalyzerPage />}
           
           {currentPage === 'analytics' && <ProgressAnalyticsPage />}
         </main>
